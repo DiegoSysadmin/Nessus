@@ -5,6 +5,35 @@
 ## Descarga
 https://www.tenable.com/downloads/nessus?loginAttempted=true
 
+### Paso 1 — Obtener la licencia de activación
+
+Este paso es el mismo independientemente del sistema operativo.
+
+#### Opción A — Prueba gratuita de 7 días (recomendada para laboratorio)
+
+Tenable ofrece una **trial gratuita de 7 días completos** de Nessus Expert sin necesidad de introducir datos de pago. Es la opción ideal para un entorno académico o para evaluar la herramienta:
+
+1. Ir a [tenable.com/products/nessus](https://www.tenable.com/products/nessus).
+2. Seleccionar **Nessus Expert** y hacer clic en **Try for free**.
+3. Crear una cuenta con nombre, apellido y email.
+4. Se recibirá un **Activation Code** por email en pocos minutos.
+5. Anotar el código — se usará en el paso de activación desde el navegador.
+
+A continuación se muestran las capturas realizadas:
+
+![Instalacion Nessus](/assets/1_nesus.png)
+![Instalacion Nessus](/assets/2_nessus.png)
+![Instalacion Nessus](/assets/3_nessus.png)
+
+
+> [!NOTE]
+> Los 7 días comienzan a contar desde el momento en que se activa la licencia en Nessus, no desde el registro en la web. Una vez expirada la trial, Nessus pasa a modo limitado hasta que se active una licencia de pago. Para este laboratorio, 7 días son más que suficientes.
+
+#### Opción B — Licencia de pago
+
+Para uso profesional o continuado, adquirir la licencia completa desde el portal de Tenable. El proceso de activación es idéntico al de la trial — solo cambia el código recibido.
+
+
 ## Documentación para Instalar en Linux
 https://docs.tenable.com/nessus/Content/InstallNessusLinux.htm
 
@@ -58,33 +87,33 @@ https://localhost:8834
 Configurar Tenable Nessus
 ---
 
-Ingresamos en la web.
+- Ingresamos en la web.
 
-Nos pregunta que tipo de Nessus vamos a instalar, si queremos purchased una instancia qeu compramos, probar un trial del Expert o del Professional o si qeuremos el Essentials (gratis).
+- Nos pregunta que tipo de Nessus vamos a instalar, si queremos purchased una instancia qeu compramos, probar un trial del Expert o del Professional o si qeuremos el Essentials (gratis).
 
-Si no tenemos un correo corporativo:
+- Si no tenemos un correo corporativo:
 https://10minutemail.com/
 
-Recibimos un codigo de activacion.
+- Recibimos un codigo de activacion.
 
-Creamos un usuario y contraseña.
+- Creamos un usuario y contraseña.
 
-Cuando inicializa actualiza los plugins, cada plugin sirve para hacer una prueba puntual. Hay que esperar que temine de instalarlos antes de continuar.
+- Cuando inicializa actualiza los plugins, cada plugin sirve para hacer una prueba puntual. Hay que esperar que temine de instalarlos antes de continuar.
 
 
-Podemos crear un escaneo para cada uno de los targets que quieramos evaluar.
+- Podemos crear un escaneo para cada uno de los targets que quieramos evaluar.
 
-Vamos a "My Scans-->New Scan"
+- Vamos a "My Scans-->New Scan"
 		Vamos a escanear la web de OWASP Juice Shop
 		$sudo juice-shop
 		http://127.0.0.1:42000
 		
-Dentro de targets coloco: 127.0.0.1
-Luego damos: "Submit"
-Luego seleccionamos el host que encontro y damos: "Run Scan"
+- Dentro de targets coloco: 127.0.0.1
+- Luego damos: "Submit"
+- Luego seleccionamos el host que encontro y damos: "Run Scan"
 
 
-Politicas
+### Politicas
 Se utilizan para crear templates customizados, definiendo que acciones ejecutar durante el escaneo (tipo de escaneo que va a realizar).
 Con el "Advanced Scan" podemos escanear incluyendo credenciales de usuario y contraseña del servidor.
 	Settings/Credentials/Plugins
@@ -145,7 +174,7 @@ Nessus Expert puede instalarse tanto en **Linux** como en **Windows**. El proces
 
 ## Tabla de Contenidos
 
-- [Requisitos previos](#requisitos-previos)
+
 - [Obtener la licencia](#paso-1--obtener-la-licencia-de-activación)
 - [Instalación en Windows](#-instalación-en-windows)
 - [Paso común — Activación desde el navegador](#paso-común--activación-y-configuración-desde-el-navegador)
@@ -155,33 +184,7 @@ Nessus Expert puede instalarse tanto en **Linux** como en **Windows**. El proces
 ---
 
 
-## Paso 1 — Obtener la licencia de activación
 
-Este paso es el mismo independientemente del sistema operativo.
-
-### Opción A — Prueba gratuita de 7 días (recomendada para laboratorio)
-
-Tenable ofrece una **trial gratuita de 7 días completos** de Nessus Expert sin necesidad de introducir datos de pago. Es la opción ideal para un entorno académico o para evaluar la herramienta:
-
-1. Ir a [tenable.com/products/nessus](https://www.tenable.com/products/nessus).
-2. Seleccionar **Nessus Expert** y hacer clic en **Try for free**.
-3. Crear una cuenta con nombre, apellido y email.
-4. Se recibirá un **Activation Code** por email en pocos minutos.
-5. Anotar el código — se usará en el paso de activación desde el navegador.
-
-A continuación se muestran las capturas realizadas:
-
-![Instalacion Nessus](/assets/1_nesus.png)
-![Instalacion Nessus](/assets/2_nessus.png)
-![Instalacion Nessus](/assets/3_nessus.png)
-
-
-> [!NOTE]
-> Los 7 días comienzan a contar desde el momento en que se activa la licencia en Nessus, no desde el registro en la web. Una vez expirada la trial, Nessus pasa a modo limitado hasta que se active una licencia de pago. Para este laboratorio, 7 días son más que suficientes.
-
-### Opción B — Licencia de pago
-
-Para uso profesional o continuado, adquirir la licencia completa desde el portal de Tenable. El proceso de activación es idéntico al de la trial — solo cambia el código recibido.
 
 ---
 

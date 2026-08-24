@@ -1,31 +1,168 @@
-# 🧪 Configuración del Entorno de Laboratorio
-
-← [Volver al índice](../README.md)
+# Laboratorio de Pruebas
 
 ---
 
-Todo el análisis se realizó desde una máquina **Windows 11** con Nessus Expert instalado directamente sobre el sistema operativo — no desde una VM de Kali Linux. Las máquinas objetivo corren como máquinas virtuales en la misma red que el host Windows.
+## Descripción
 
+Todos los equipos son máquinas virtuales corriendo sobre un virtualizador tipo 2, en este caso Virtual Box.
+
+Como se ha comentado en el paso de Instalación, Nessus en su versión Expert se ha instalado en una máquina virtual con sistema operativo Rocky Linux 9, desde la que se lanzarán todos los escaneos.
+
+Para poder escanear más de un sistema operativo, se armó un laboratorio con un servidor Ubuntu Linux y un Windows 10.
+
+## Esquema
 
 ---
 
-## Arquitectura de red
+```
+┌────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                  Red Interna / NAT Network                   │                                     │
+│                       192.168.1.0/24                         │                                     │
+│                                                              │                                     │
+│  ┌───────────────────┐       ┌──────────────────────────┐    │      ┌──────────────────────────┐   │
+│  │ Rocky 9-objetivo  │       │   Windows 10-objetivo    │    │      │   Rocky 9                │   │
+│  │                   │       │                          │    │      │   (Analista)             │   │
+│  │                   │       │                          │    │      │                          │   │
+│  │ 192.168.1.134     │       │  192.168.1.165           │    │      │  192.168.1.134           │   │
+│  │                   │       │                          │    │      │  Nessus Expert           │   │
+│  │                   │       │                          │    │      │  :8834                   │   │
+│  └───────────────────┘       └──────────────────────────┘    │      └──────────────────────────┘   │
+└────────────────────────────────────────────────────────────────────────────────────────────────────┘
+```
 
-```
-┌──────────────────────────────────────────────────────────────┐
-│                  Red Interna / NAT Network                   │
-│                       192.168.1.0/24                         │
-│                                                              │
-│  ┌───────────────────┐       ┌──────────────────────────┐    │
-│  │   Windows 11      │       │   Hosts objetivo         │    │
-│  │   (Analista)      │◄─────►│                          │    │
-│  │   192.168.1.134   │       │  192.168.1.134 (Win11)   │    │
-│  │                   │       │  192.168.1.165 (Linux)   │    │
-│  │  Nessus Expert    │       │  192.168.1.163 (Linux)   │    │
-│  │  :8834            │       │                          │    │
-│  └───────────────────┘       └──────────────────────────┘    │
-└──────────────────────────────────────────────────────────────┘
-```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 > [!NOTE]
 > El host `192.168.1.134` es la misma máquina Windows 11 donde está instalado Nessus — es decir, Nessus se escaneó a sí mismo además de a los otros dos hosts. Esto es una práctica válida para analizar la propia máquina de trabajo.
@@ -106,5 +243,3 @@ PING 192.168.1.134 (192.168.1.134): 56 bytes de datos
 nmap -sV 192.168.1.134
 ```
 ---
-
-← [Volver al índice](../README.md) · Siguiente: [Tipos de escaneo →](05-tipos-escaneo.md)
