@@ -31,8 +31,6 @@ curl --request GET \
 
 
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 ---
   
 ## Pasos para la instalación en Rocky Linux 9 (o cualquier RHEL)
@@ -74,8 +72,6 @@ Creamos un usuario y contraseña.
 Cuando inicializa actualiza los plugins, cada plugin sirve para hacer una prueba puntual. Hay que esperar que temine de instalarlos antes de continuar.
 
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
 Podemos crear un escaneo para cada uno de los targets que quieramos evaluar.
 
 Vamos a "My Scans-->New Scan"
@@ -87,7 +83,6 @@ Dentro de targets coloco: 127.0.0.1
 Luego damos: "Submit"
 Luego seleccionamos el host que encontro y damos: "Run Scan"
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Politicas
 Se utilizan para crear templates customizados, definiendo que acciones ejecutar durante el escaneo (tipo de escaneo que va a realizar).
