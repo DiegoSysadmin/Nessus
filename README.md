@@ -81,20 +81,21 @@ NESSUS/
 
 
 .
-├── 📂 assets/                      # Capturas del proceso completo
+├── 📄 README.md                      # Presentación del proyecto, objetivos y TL;DR
 │
 ├── 📂 docs/
-│   ├── 01-que-es-nessus.md
-│   ├── 02-glosario.md
-│   ├── 03-instalacion.md
-│   ├── 04-entorno-laboratorio.md
-│   ├── 05-tipos-escaneo.md
-│   ├── 06-politicas-escaneo.md
-│   ├── 07-como-leer-reporte.md
-│   ├── 08-hallazgos.md
-│   └── 09-remediacion.md
+│   ├── 01-Instalacion.md
+│   ├── 02-Armado-del-Laboratorio.md
+│   ├── 03-Configurar-Nessus.md
+│   ├── 04-Escaneso.md
+│   ├── 05-Analisis-de-escaneso.md
+│   ├── 06-Script-python.md
+│   ├── 07-Reportes.md
+│   └── 08-Hallazgos-y-tratamiento.md
 │
-└── 📄 README.md                      # Este archivo — índice principal
+├── 📂 images/                        # Capturas
+│
+└── 📄 README.md                      # Archivo principal
 ```
 
 ---
