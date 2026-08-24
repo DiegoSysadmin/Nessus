@@ -62,25 +62,7 @@ Nessus es una plataforma de escaneo de vulnerabilidades desarrollada por Tenable
 Este repositorio esta organizado de la siguiente manera.
 
 ```text
-NESSUS/
-├── 📄 README.md                 # Presentación del proyecto, objetivos y TL;DR
-├── 📂 docs/
-│   ├── 📄 workflow.md           # Metodología y flujo visual de trabajo (Mermaid)
-│   ├── 📄 operation-guide.md    # Guía rápida de operación avanzada y buenas prácticas
-│   ├── 📄 operation-guide.md    # Guía rápida de operación avanzada y buenas prácticas
-│   ├── 📄 operation-guide.md    # Guía rápida de operación avanzada y buenas prácticas
-│   ├── 📄 operation-guide.md    # Guía rápida de operación avanzada y buenas prácticas
-│   ├── 📄 operation-guide.md    # Guía rápida de operación avanzada y buenas prácticas
-│   └── 📄 plugins-automation.md # Script de automatización (Python) e integración de datos
-
-└── 📂 assets/
-    └── 📂 diagrams/             # Directorio para diagramas y capturas de pantalla
-
-
-## 📁 Estructura del Repositorio
-
-
-.
+Nessus/
 ├── 📄 README.md                      # Presentación del proyecto, objetivos y TL;DR
 │
 ├── 📂 docs/
