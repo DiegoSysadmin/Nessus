@@ -75,14 +75,17 @@ https://localhost:8834
 ```text
 https://localhost:8834
 ```
-Seguimos los pasos y elegimos la versión que vamos a utilizar.
-Introducimos nuestro mail para que nos llegue el código de activación.
-Nos llega un mail con el Código de Activación para poder activar y utilizar la versión Expert.
+- Seguimos los pasos y elegimos la versión que vamos a utilizar.
+- Introducimos nuestro mail para que nos llegue el código de activación.
+- Nos llega un mail con el Código de Activación para poder activar y utilizar la versión Expert.
 ![Instalacion Nessus](/images/10_Nessus-Activar.png)
 ![Instalacion Nessus](/images/11_Nessus-Activar.png)
 ![Instalacion Nessus](/images/12_Nessus-Activar.png)
 ![Instalacion Nessus](/images/13_Nessus-Activar.png)
 ![Instalacion Nessus](/images/14_Nessus-Activar.png)
+
+> [!NOTA]
+> Nota: Si no tenemos un correo corporativo podemos usar https://10minutemail.com/
 
 ## 5.- Acceso
 
@@ -91,149 +94,9 @@ Cuando inicializa actualiza los plugins, cada plugin sirve para hacer una prueba
 Podemos crear un escaneo para cada uno de los targets que quieramos evaluar.
 
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-Configurar Tenable Nessus
 ---
-
-- Ingresamos en la web.
-
-- Nos pregunta que tipo de Nessus vamos a instalar, si queremos purchased una instancia qeu compramos, probar un trial del Expert o del Professional o si qeuremos el Essentials (gratis).
-
-- Si no tenemos un correo corporativo:
-https://10minutemail.com/
-
-- Recibimos un codigo de activacion.
-
-
-
-- Vamos a "My Scans-->New Scan"
-		Vamos a escanear la web de OWASP Juice Shop
-		$sudo juice-shop
-		http://127.0.0.1:42000
-		
-- Dentro de targets coloco: 127.0.0.1
-- Luego damos: "Submit"
-- Luego seleccionamos el host que encontro y damos: "Run Scan"
-
+---
 
 ### Politicas
-Se utilizan para crear templates customizados, definiendo que acciones ejecutar durante el escaneo (tipo de escaneo que va a realizar).
-Con el "Advanced Scan" podemos escanear incluyendo credenciales de usuario y contraseña del servidor.
+Se utilizan para crear templates customizados, definiendo que acciones ejecutar durante el escaneo (tipo de escaneo que va a realizar). Con el "Advanced Scan" podemos escanear incluyendo credenciales de usuario y contraseña del servidor.
 	Settings/Credentials/Plugins
-
-
----
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----
-
-
-
-> [!IMPORTANT]
-> La descarga de plugins puede tardar entre **10 y 30 minutos** dependiendo de la conexión. No cerrar el navegador ni reiniciar el servicio durante este proceso.
->
-> Si se interrumpe en **Windows**: reiniciar "Tenable Nessus" desde el Administrador de servicios.
-
-![Instalacion Nessus](/assets/instalacion_16.png)
-![Instalacion Nessus](/assets/instalacion_17.png)
-![Instalacion Nessus](/assets/instalacion_18.png)
-![Instalacion Nessus](/assets/instalacion_19.png)
-![Instalacion Nessus](/assets/instalacion_21.png)
-
-
----
-
-## Verificar la instalación
-
-Una vez completada la descarga de plugins, confirmar que la versión activa es Expert:
-
-```
-Menú superior derecho → tu usuario → About
-→ Debe mostrar: "Nessus Expert" con la fecha de expiración de la licencia
-```
-
-![Instalacion Nessus](/assets/instalacion_15.png)
-
-
----
-
-← [Volver al índice](../README.md) · Siguiente: [Entorno de laboratorio →](04-entorno-laboratorio.md)
