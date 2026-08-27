@@ -10,9 +10,9 @@ Como se ha comentado en el paso de Instalación, Nessus en su versión Expert se
 
 Para poder escanear más de un sistema operativo, se armó un laboratorio con un servidor Ubuntu Linux y un Windows 10.
 
-## Esquema
-
 ---
+
+## Esquema
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────────────────────────────┐
@@ -30,6 +30,10 @@ Para poder escanear más de un sistema operativo, se armó un laboratorio con un
 └────────────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
+---
+
+## Servidor de prueba en la web:
+https://juice-shop.herokuapp.com/#/
 
 
 

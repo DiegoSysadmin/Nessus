@@ -2,7 +2,7 @@
 
 ---
 
-## Arsenal del Analista: Automatización y Priorización de Vulnerabilidades con Nessus y EPSS
+## 💣🛠️ Arsenal del Analista: Automatización y Priorización de Vulnerabilidades con Nessus y EPSS
 
 Este repositorio contiene un recurso técnico avanzado diseñado para analistas de seguridad, enfocado en optimizar el ciclo de vida de la gestión de vulnerabilidades en entornos corporativos. En lugar de limitarse a la ejecución teórica de herramientas, este proyecto propone una metodología práctica basada en el **Análisis de Vulnerabilidades Basado en Riesgo (RBVM)**, integrando **Nessus** con el modelo predictivo **EPSS (Exploit Prediction Scoring System)**.
 
@@ -10,11 +10,11 @@ El objetivo principal es resolver el problema real al que se enfrentan los equip
 
 ---
 
-## ¿Qué es Nessus?
+## ❔¿Qué es Nessus?
 
 Nessus es una plataforma de escaneo de vulnerabilidades desarrollada por Tenable. Su función principal es analizar redes, sistemas y aplicaciones para detectar fallos de seguridad, puertos abiertos, software desactualizado y errores de configuración antes de que puedan ser explotados por atacantes maliciosos.
 
-## Funciones clave
+### Funciones clave
 
 *Identificación de riesgos*: Evalúa vulnerabilidades, malware, parches faltantes y configuraciones incorrectas en una amplia variedad de sistemas operativos y dispositivos.
 
@@ -22,7 +22,7 @@ Nessus es una plataforma de escaneo de vulnerabilidades desarrollada por Tenable
 
 *Tipos de análisis*: Ofrece diferentes plantillas, desde escaneos básicos de red hasta auditorías avanzadas de cumplimiento normativo y análisis de aplicaciones web.
 
-## Versiones
+### Versiones
 
 **Nessus Essentials**: Es la versión gratuita para uso educativo, estudiantil o personal, diseñada para escanear hasta 16 direcciones IP.
 
@@ -30,6 +30,7 @@ Nessus es una plataforma de escaneo de vulnerabilidades desarrollada por Tenable
 
 **Nessus Expert**: Incluye funciones adicionales como la evaluación de aplicaciones web y la gestión de la superficie de ataque.
 
+---
 
 ***Essential vs Professional***
 
