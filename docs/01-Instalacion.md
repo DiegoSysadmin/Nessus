@@ -10,7 +10,9 @@ Para este laboratorio se utiliza Nessus Essential.
 
 Accedemos a la [Web de Tenable](https://www.tenable.com/products/nessus) para registrarnos con nuestros datos. Nos va a pedir nombre, apellido y un email. En caso de querer instalar la versión Proffessional o Expert, se debe introducir un email empresarial y solicita algunos datos básicos de la empresa como el nombre, cantidad de empleados, teléfono.
 ![Instalacion Nessus](/images/01_Nessus-Registro.png)
+
 ---
+
 ## 2.— Descarga
 
 https://www.tenable.com/downloads/nessus?loginAttempted=true
