@@ -78,7 +78,7 @@ https://localhost:8834
 ```
 - Seguimos los pasos y elegimos la versión que vamos a utilizar.
 - Introducimos nuestro mail para que nos llegue el código de activación.
-- Nos llega un mail con el Código de Activación para poder activar y utilizar la versión Expert.
+- Nos llega un email con el Código de Activación.
 ![Instalacion Nessus](/images/10_Nessus-Activar.png)
 ![Instalacion Nessus](/images/11_Nessus-Activar.png)
 ![Instalacion Nessus](/images/12_Nessus-Activar.png)
@@ -86,16 +86,14 @@ https://localhost:8834
 ![Instalacion Nessus](/images/14_Nessus-Activar.png)
 
 > [!NOTA]
-> Nota: Si no tenemos un correo corporativo podemos usar https://10minutemail.com/
+> Nota: Conservar el código en caso de necesitar reinstalar el producto.
 
 ## 5.- Acceso
 
-Creamos un usuario y contraseña.
-Cuando inicializa actualiza los plugins, cada plugin sirve para hacer una prueba puntual. Hay que esperar que temine de instalarlos antes de continuar.
-Podemos crear un escaneo para cada uno de los targets que quieramos evaluar.
+- Creamos un usuario y contraseña.
+- Cuando inicializa actualiza los plugins, cada plugin sirve para hacer una prueba puntual. Hay que esperar que temine de instalarlos antes de continuar.
+- Podemos crear un escaneo para cada uno de los targets que quieramos evaluar.
 
----
----
 ---
 
 ### Politicas
