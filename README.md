@@ -10,7 +10,7 @@ El objetivo principal es resolver el problema real al que se enfrentan los equip
 
 ---
 
-## ❔¿Qué es Nessus?
+## ¿Qué es Nessus?
 
 Nessus es una plataforma de escaneo de vulnerabilidades desarrollada por Tenable. Su función principal es analizar redes, sistemas y aplicaciones para detectar fallos de seguridad, puertos abiertos, software desactualizado y errores de configuración antes de que puedan ser explotados por atacantes maliciosos.
 

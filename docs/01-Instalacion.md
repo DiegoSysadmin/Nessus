@@ -1,18 +1,19 @@
-# Instalación de Nessus Expert
+# Instalación de Nessus Essential
 
+Para instalar cualquiera de las versiones los pasos son los mismos, solo cambia en la etapa del registo y en la elección de la versión a instalar una vez ya instalado cuando accedemos desde la web.
 El paso previo a la instalación es decidir qué verisión se utilizará, la gratuita para entornos reducidos y recomendada para estudiantes y entornos de laboratorio. O una versión paga como Nessus Professional o Expert, para empresas y con prestaciones avanzadas.
-Para este laboratorio se utiliza prueba gratuita de 7 días de la versión Expert que permite escaneos ilimitados, permite exportar los reportes y es ideal para equipos empresariales.
+Para este laboratorio se utiliza Nessus Essential.
 
 ---
 
 ## 1.— Registro en la web para obtener el código de la licencia de activación
 
-Accedemos a la [Web de Tenable](https://www.tenable.com/products/nessus) para registrarnos con nuestros datos. Nos va a pedir nombre, apellido y un mail empresarial. Luego algunos datos básicos de la empresa como el nombre, cantidad de empleados, teléfono.
+Accedemos a la [Web de Tenable](https://www.tenable.com/products/nessus) para registrarnos con nuestros datos. Nos va a pedir nombre, apellido y un email. En caso de querer instalar la versión Proffessional o Expert, se debe introducir un email empresarial y solicita algunos datos básicos de la empresa como el nombre, cantidad de empleados, teléfono.
 ![Instalacion Nessus](/images/01_Nessus-Registro.png)
 ---
 ## 2.— Descarga
 
-https://www.tenable.com/downloads/nessus?utm_source=nessus-trial-thank-you-update&loginAttempted=true
+https://www.tenable.com/downloads/nessus?loginAttempted=true
 
 Hacemos clic en Download Now para poder descargar el producto.
 ![Instalacion Nessus](/images/02_Nessus-Registro.png)
