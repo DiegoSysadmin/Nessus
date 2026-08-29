@@ -47,7 +47,6 @@ Para instalar Nessus Expert en Rocky Linux nueve se siguen [estos pasos](https:/
 ```text
 dnf install Nessus-<version number>-el8.x86_64.rpm
 ```
-![Instalacion Nessus](/images/08_Nessus-Instalacion.png)
 
 **Levantar el demonio nessusd:**
 ```text
