@@ -14,6 +14,9 @@ Para poder escanear más de un sistema operativo, se armó un laboratorio con un
 
 ## Esquema
 
+![Esquema-Laboratorio](/images/18_Nessus-Diagrama-Lab.png)
+
+
 ```
 ┌────────────────────────────────────────────────────────────────────────────────────────────────────┐
 │                  Red Interna / NAT Network                   │                                     │
