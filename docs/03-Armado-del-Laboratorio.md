@@ -24,4 +24,7 @@ Adicionalmente se va a realizar un escaneo de una web vulnerable, la misma está
 https://juice-shop.herokuapp.com/#/
 
 ![Esquema-Laboratorio](/images/19_Nessus-WebVulnerable.png)
+
+Como se puede apreciar es una web de OWASP
+
 ![Esquema-Laboratorio](/images/20_Nessus-WebVulnerable.png)
