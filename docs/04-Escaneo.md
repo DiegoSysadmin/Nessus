@@ -1,3 +1,5 @@
+Escaneso
+
 - Vamos a "My Scans-->New Scan"
 		Vamos a escanear la web de OWASP Juice Shop
 		$sudo juice-shop
