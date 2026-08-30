@@ -8,3 +8,6 @@ Escaneso
 - Dentro de targets coloco: 127.0.0.1
 - Luego damos: "Submit"
 - Luego seleccionamos el host que encontro y damos: "Run Scan"
+- 
+- ![Instalacion Nessus](/images/21_Nessus-Escaneo.png)
+- ![Instalacion Nessus](/images/22_Nessus-Escaneo.png)
