@@ -6,33 +6,14 @@
 
 Todos los equipos son máquinas virtuales corriendo sobre un virtualizador tipo 2, en este caso Virtual Box.
 
-Como se ha comentado en el paso de Instalación, Nessus en su versión Expert se ha instalado en una máquina virtual con sistema operativo Rocky Linux 9, desde la que se lanzarán todos los escaneos.
-
-Para poder escanear más de un sistema operativo, se armó un laboratorio con un servidor Ubuntu Linux y un Windows 10.
+Como se ha comentado en el paso de Instalación, Nessus se ha instalado en una máquina virtual con sistema operativo Rocky Linux 9, desde la que se lanzarán todos los escaneos. Los objetivos a escanear son 2, una VM con Ubuntu Linux 16.04.3 LTS y un Windows 10.
 
 ---
 
 ## Esquema
 
+En el siguente esquema se puede ver como se creo una red NAT aislada del Host, cuyo rango es 10.0.1.0/24 llamada NatNetwork-NESSUS.
 ![Esquema-Laboratorio](/images/18_Nessus-Diagrama-Lab.png)
-
-
-```
-┌────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                  Red Interna / NAT Network                   │                                     │
-│                       192.168.1.0/24                         │                                     │
-│                                                              │                                     │
-│  ┌───────────────────┐       ┌──────────────────────────┐    │      ┌──────────────────────────┐   │
-│  │ Rocky 9-objetivo  │       │   Windows 10-objetivo    │    │      │   Rocky 9                │   │
-│  │                   │       │                          │    │      │   (Analista)             │   │
-│  │                   │       │                          │    │      │                          │   │
-│  │ 192.168.1.134     │       │  192.168.1.165           │    │      │  192.168.1.134           │   │
-│  │                   │       │                          │    │      │  Nessus Expert           │   │
-│  │                   │       │                          │    │      │  :8834                   │   │
-│  └───────────────────┘       └──────────────────────────┘    │      └──────────────────────────┘   │
-└────────────────────────────────────────────────────────────────────────────────────────────────────┘
-```
-
 ---
 
 ## Servidor de prueba en la web:
