@@ -93,9 +93,7 @@ Otra opción interesante es poder agregar credenciales de SSH en caso de Linux o
 ![Instalacion Nessus](/images/36_Nessus-Escaneo.png)
 ![Instalacion Nessus](/images/37_Nessus-Escaneo.png)
 ![Instalacion Nessus](/images/38_Nessus-Escaneo.png)
-
-
 ![Instalacion Nessus](/images/39_Nessus-Escaneo.png)
-
 ![Instalacion Nessus](/images/41_Nessus-Escaneo.png)
 ![Instalacion Nessus](/images/42_Nessus-Escaneo.png)
+![Instalacion Nessus](/images/43_Nessus-Escaneo.png)
