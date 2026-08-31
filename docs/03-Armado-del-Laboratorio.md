@@ -19,7 +19,7 @@ En el siguente esquema se puede ver como se creo una red NAT aislada del Host, c
 
 ## Servidor de prueba en la web:
 
-Adicionalmente se va a realizar un escaneo de una web vulnerable, la misma está echa para usarla de esa manera por lo que no es ilegal lanzar este escaneo. Al estar en internet no forma parte del laboratorio, solo de los escaneos.
+En caso de queres probar el escaneo web, se puede realizar a una web vulnerable echa para usarla de esa manera por lo que no es ilegal lanzar el escaneo.
 
 https://juice-shop.herokuapp.com/#/
 
