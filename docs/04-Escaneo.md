@@ -61,7 +61,11 @@ Las plantillas de escaneo en Nessus están organizadas por categorías según el
 
 ### Descubrimiento
 
-Lo primero a realizar es un descubrimiento de red, vamos a ver de que realmente detecta los host.
+Lo primero a realizar es un descubrimiento de red, vamos a ver de que realmente detecta los host. Elegimos un nombre para el escaneo, luego introducimos un comentario, y finalmente elegimos donde se va a guardar (en este caso en My Scans) y el objetivo a escanear (Targets) que en este caso es la subrede del laboratorio armado.
+
+Luego de guardar el escaneo con la opción Save lo vemos en **My Scans** y podemos pararnos sobre el. Para lanzarlo hacemos clic en **Launch**.
+
+Finalizado el escaneo hacemos clic sobre el mismo y podemos ver los resultados. Los host encontrados, la vulnerabilidades y un historial de las veces que lo hemos corrido.
 
 ![Instalacion Nessus](/images/24_Nessus-Escaneo.png)
 ![Instalacion Nessus](/images/25_Nessus-Escaneo.png)
@@ -75,6 +79,12 @@ Lo primero a realizar es un descubrimiento de red, vamos a ver de que realmente 
 
 ### Malware
 
+El siguiente escaneo a probar es el de Malware al que accedemos de la misma forma que al anterior, sólo que esta vez elegimos el icono de Malware. Nuevamente elegimos un nombre, damos una descripción y elegimos el objetivo.
+
+Tenemos la opción de Schedule, aquí podemos agendar un escaneo para más tarde e incluso hacerlo periódico (por ejemplo semanalmente  a las 20:30 los lunes, miércoles y viernes). También se puede optar por notificar del escaneo por mail.
+
+Otra opción interesante es poder agregar credenciales de SSH en caso de Linux o usuario y password para equipos windows.
+
 ![Instalacion Nessus](/images/31_Nessus-Escaneo.png)
 ![Instalacion Nessus](/images/32_Nessus-Escaneo.png)
 ![Instalacion Nessus](/images/33_Nessus-Escaneo.png)
@@ -83,3 +93,9 @@ Lo primero a realizar es un descubrimiento de red, vamos a ver de que realmente 
 ![Instalacion Nessus](/images/36_Nessus-Escaneo.png)
 ![Instalacion Nessus](/images/37_Nessus-Escaneo.png)
 ![Instalacion Nessus](/images/38_Nessus-Escaneo.png)
+
+
+![Instalacion Nessus](/images/39_Nessus-Escaneo.png)
+
+![Instalacion Nessus](/images/41_Nessus-Escaneo.png)
+![Instalacion Nessus](/images/42_Nessus-Escaneo.png)
