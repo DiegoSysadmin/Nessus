@@ -16,7 +16,7 @@ Nessus es una plataforma de escaneo de vulnerabilidades desarrollada por Tenable
 
 ### Versiones
 
-**Nessus Essentials**: Es la versión gratuita para uso educativo, estudiantil o personal, diseñada para escanear hasta 16 direcciones IP.
+**Nessus Essentials**: Es la versión gratuita para uso educativo, estudiantil o personal, diseñada para escanear hasta 5 direcciones IP.
 
 **Nessus Professional**: Es la versión comercial estándar utilizada por consultores y profesionales de la seguridad para evaluaciones ilimitadas.
 
@@ -56,21 +56,16 @@ Este repositorio esta organizado de la siguiente manera.
 
 ```text
 Nessus/
-├── 📄 README.md                      # Presentación del proyecto, objetivos y TL;DR
-│
 ├── 📂 docs/
 │   ├── 01-Instalacion.md
-│   ├── 02-Armado-del-Laboratorio.md
-│   ├── 03-Configurar-Nessus.md
-│   ├── 04-Escaneso.md
-│   ├── 05-Analisis-de-escaneso.md
-│   ├── 06-Script-python.md
-│   ├── 07-Reportes.md
-│   └── 08-Hallazgos-y-tratamiento.md
+│   ├── 02-Configurar-Nessus.md
+│   ├── 03-Armado-del-Laboratorio.md
+│   ├── 04-Escaneo.md
+│   └── 05-Analisis-de-resultados.md
 │
-├── 📂 images/                        # Capturas
+├── 📂 images/
 │
-└── 📄 README.md                      # Archivo principal
+└── 📄 README.md
 ```
 
 ---
