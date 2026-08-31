@@ -1,13 +1,5 @@
 # Escaneo de Vulnerabilidades
 
-- Vamos a "My Scans-->New Scan"		
-- Dentro de targets coloco la subred a escanear: 10.0.1.0/24
-- Luego damos: "Submit"
-- Luego seleccionamos el host que encontro y damos: "Run Scan"
-
-![Instalacion Nessus](/images/21_Nessus-Escaneo.png)
-![Instalacion Nessus](/images/22_Nessus-Escaneo.png)
-
 ---
 
 ## Tipos de Escaneo
@@ -57,7 +49,15 @@ Las plantillas de escaneo en Nessus están organizadas por categorías según el
 
 ---
 
-## Primer escaneo
+## Lanzar el escaneo
+
+- Vamos a "My Scans-->New Scan"		
+- Dentro de targets coloco la subred a escanear: 10.0.1.0/24
+- Luego damos: "Submit"
+- Luego seleccionamos el/los host que encontro y damos: "Run Scan"
+
+![Instalacion Nessus](/images/21_Nessus-Escaneo.png)
+![Instalacion Nessus](/images/22_Nessus-Escaneo.png)
 
 ### Descubrimiento
 
@@ -72,8 +72,6 @@ Lo primero a realizar es un descubrimiento de red, vamos a ver de que realmente 
 ![Instalacion Nessus](/images/30_Nessus-Escaneo.png)
 
 ---
-
-## Segundo escaneo
 
 ### Malware
 
