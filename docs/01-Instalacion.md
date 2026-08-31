@@ -17,7 +17,7 @@ Accedemos a la [Web de Tenable](https://www.tenable.com/products/nessus) para re
 
 https://www.tenable.com/downloads/nessus?loginAttempted=true
 
-Hacemos clic en Download Now para poder descargar el producto.
+Hacemos clic en Descargar para poder descargar el producto. Una vez en la web de descarga se puede optar por bajar el instalador desde la web o utilizar el comando curl para hacerlo.
 ![Instalacion Nessus](/images/02_Nessus-Registro.png)
 ![Instalacion Nessus](/images/03_Nessus-Descarga.png)
 ![Instalacion Nessus](/images/04_Nessus-Descarga.png)
@@ -39,7 +39,7 @@ Haciendo clic sobre Checksum podemos copiar el hash para comprobar la correcta d
 ---
 
 ## 3.- Instalación
-Para instalar Nessus Expert en Rocky Linux nueve se siguen [estos pasos](https://docs.tenable.com/nessus/Content/InstallNessusLinux.htm)
+Para instalar Nessus en Rocky Linux nueve se siguen [estos pasos](https://docs.tenable.com/nessus/Content/InstallNessusLinux.htm)
 
 ### Pasos para la instalación en Rocky Linux 9 (o cualquier RHEL)
 
@@ -86,8 +86,7 @@ https://localhost:8834
 ![Instalacion Nessus](/images/13_Nessus-Activar.png)
 ![Instalacion Nessus](/images/14_Nessus-Activar.png)
 
-> [!NOTA]
-> Nota: Conservar el código en caso de necesitar reinstalar el producto.
+*NOTA*: Conservar el código en caso de necesitar reinstalar el producto.
 
 ---
 
