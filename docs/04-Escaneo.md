@@ -59,6 +59,8 @@ Las plantillas de escaneo en Nessus están organizadas por categorías según el
 
 ## Primer escaneo
 
+### Descubrimiento
+
 Lo primero a realizar es un descubrimiento de red, vamos a ver de que realmente detecta los host.
 
 ![Instalacion Nessus](/images/24_Nessus-Escaneo.png)
@@ -67,3 +69,14 @@ Lo primero a realizar es un descubrimiento de red, vamos a ver de que realmente 
 ![Instalacion Nessus](/images/27_Nessus-Escaneo.png)
 ![Instalacion Nessus](/images/28_Nessus-Escaneo.png)
 ![Instalacion Nessus](/images/29_Nessus-Escaneo.png)
+![Instalacion Nessus](/images/30_Nessus-Escaneo.png)
+
+### Malware
+
+![Instalacion Nessus](/images/31_Nessus-Escaneo.png)
+![Instalacion Nessus](/images/32_Nessus-Escaneo.png)
+![Instalacion Nessus](/images/33_Nessus-Escaneo.png)
+![Instalacion Nessus](/images/34_Nessus-Escaneo.png)
+![Instalacion Nessus](/images/35_Nessus-Escaneo.png)
+![Instalacion Nessus](/images/36_Nessus-Escaneo.png)
+![Instalacion Nessus](/images/37_Nessus-Escaneo.png)
