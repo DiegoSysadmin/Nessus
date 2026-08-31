@@ -1,17 +1,15 @@
 # Escaneo de Vulnerabilidades
 
-- Vamos a "My Scans-->New Scan"
-		Vamos a escanear la web de OWASP Juice Shop
-		$sudo juice-shop
-		http://127.0.0.1:42000
-		
-- Dentro de targets coloco: 127.0.0.1
+- Vamos a "My Scans-->New Scan"		
+- Dentro de targets coloco la subred a escanear: 10.0.1.0/24
 - Luego damos: "Submit"
 - Luego seleccionamos el host que encontro y damos: "Run Scan"
 
 ![Instalacion Nessus](/images/21_Nessus-Escaneo.png)
 ![Instalacion Nessus](/images/22_Nessus-Escaneo.png)
- 
+
+---
+
 ## Tipos de Escaneo
 
 ![Instalacion Nessus](/images/23_Nessus-Escaneo.png)
@@ -56,3 +54,16 @@ Las plantillas de escaneo en Nessus están organizadas por categorías según el
 **MDM & Offline Config Audit**: Audita administradores de dispositivos móviles o archivos de configuración exportados de switches, routers y firewalls sin conectarse en vivo a ellos.
 
 **Policy Compliance Auditing & SCAP/OVAL Auditing**: Compara la configuración del sistema contra líneas base (CIS Benchmarks, DISA STIGs) o definiciones estándar OVAL/SCAP.
+
+---
+
+## Primer escaneo
+
+Lo primero a realizar es un descubrimiento de red, vamos a ver de que realmente detecta los host.
+
+![Instalacion Nessus](/images/24_Nessus-Escaneo.png)
+![Instalacion Nessus](/images/25_Nessus-Escaneo.png)
+![Instalacion Nessus](/images/26_Nessus-Escaneo.png)
+![Instalacion Nessus](/images/27_Nessus-Escaneo.png)
+![Instalacion Nessus](/images/28_Nessus-Escaneo.png)
+
