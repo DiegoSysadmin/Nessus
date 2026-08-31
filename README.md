@@ -2,14 +2,6 @@
 
 ---
 
-## 💣🛠️ Arsenal del Analista: Automatización y Priorización de Vulnerabilidades con Nessus y EPSS
-
-Este repositorio contiene un recurso técnico avanzado diseñado para analistas de seguridad, enfocado en optimizar el ciclo de vida de la gestión de vulnerabilidades en entornos corporativos. En lugar de limitarse a la ejecución teórica de herramientas, este proyecto propone una metodología práctica basada en el **Análisis de Vulnerabilidades Basado en Riesgo (RBVM)**, integrando **Nessus** con el modelo predictivo **EPSS (Exploit Prediction Scoring System)**.
-
-El objetivo principal es resolver el problema real al que se enfrentan los equipos de Blue Team y SOC: la saturación por alertas (*alert fatigue*) debido al volumen inmanejable de vulnerabilidades con criticidad teórica alta (CVSS), priorizando aquellas con probabilidad real de explotación activa en el ecosistema actual.
-
----
-
 ## ¿Qué es Nessus?
 
 Nessus es una plataforma de escaneo de vulnerabilidades desarrollada por Tenable. Su función principal es analizar redes, sistemas y aplicaciones para detectar fallos de seguridad, puertos abiertos, software desactualizado y errores de configuración antes de que puedan ser explotados por atacantes maliciosos.
