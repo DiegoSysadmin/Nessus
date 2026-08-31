@@ -80,3 +80,4 @@ Lo primero a realizar es un descubrimiento de red, vamos a ver de que realmente 
 ![Instalacion Nessus](/images/35_Nessus-Escaneo.png)
 ![Instalacion Nessus](/images/36_Nessus-Escaneo.png)
 ![Instalacion Nessus](/images/37_Nessus-Escaneo.png)
+![Instalacion Nessus](/images/38_Nessus-Escaneo.png)
