@@ -66,4 +66,4 @@ Lo primero a realizar es un descubrimiento de red, vamos a ver de que realmente 
 ![Instalacion Nessus](/images/26_Nessus-Escaneo.png)
 ![Instalacion Nessus](/images/27_Nessus-Escaneo.png)
 ![Instalacion Nessus](/images/28_Nessus-Escaneo.png)
-
+![Instalacion Nessus](/images/29_Nessus-Escaneo.png)
